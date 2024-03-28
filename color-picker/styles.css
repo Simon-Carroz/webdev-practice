@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(80,3,50);
+    color: rgb(212, 212, 212);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #720d15
+}
+
+.page-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+#ran-color-btn {
+    padding: 8px;
+    background-color: white;
+    border: solid rgb(156, 156, 156);
+    border-radius: 10px;
+}
+
+
+.color-values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px
+}
+
+.color-values > ul {
+    border: solid rgb(156, 156, 156);
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.color-values > * {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
